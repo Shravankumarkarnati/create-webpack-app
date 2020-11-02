@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
-    "start:dev": "webpack serve"
+    "start:dev": "webpack serve",
+    "dev": "npm run webpack -- --env presets=html,scss,typescript,css --env production"
   },
+
   "author": "",
+
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.3",
